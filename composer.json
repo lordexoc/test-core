@@ -1,0 +1,29 @@
+{
+    "name": "odyssey/test-core",
+    "description": "Core PHP for LMS Odyssey TEST",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Odyssey\\TestCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ozgur",
+            "email": "ozgur@ozdemir.im"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Odyssey\\TestCore\\OdysseyCoreServiceProvider"
+            ]
+        }
+    }
+}
